@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Program.cs](./CS/AddComboBoxField/Program.cs) (VB: [Program.vb](./VB/AddComboBoxField/Program.vb))
+<!-- default file list end -->
 # How to add a combo box field to a document  
 
 
