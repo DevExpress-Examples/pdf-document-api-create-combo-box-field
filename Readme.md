@@ -4,19 +4,16 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
+# PDF Document API - Add a Combo Box Field to a Document
+
+
+This example creates a combo box field and adds it to a PDF document.
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Review
 
 * [Program.cs](./CS/AddComboBoxField/Program.cs) (VB: [Program.vb](./VB/AddComboBoxField/Program.vb))
 <!-- default file list end -->
-# PDF Document API - Add a Combo Box Field to a Document  
-
-
-This example shows how to create a combo box field and add it to a PDF document.
-
-<br/>
-
-
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 

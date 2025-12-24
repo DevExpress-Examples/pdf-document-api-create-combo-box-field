@@ -1,4 +1,5 @@
 Imports DevExpress.Pdf
+Imports System.Diagnostics
 Imports System.Drawing
 
 Namespace AddComboBoxField
@@ -7,8 +8,8 @@ Namespace AddComboBoxField
 
         Shared Sub Main(ByVal args As String())
             Using processor As PdfDocumentProcessor = New PdfDocumentProcessor()
-                ' Create an empty document. 
-                processor.CreateEmptyDocument("..\..\Result.pdf")
+                ' Create an empty document.
+                processor.CreateEmptyDocument("..\..\..\Result.pdf")
                 ' Create graphics and draw a combo box field.
                 Using graphics As PdfGraphics = processor.CreateGraphics()
                     DrawComboBoxField(graphics)
@@ -16,12 +17,13 @@ Namespace AddComboBoxField
                     processor.RenderNewPage(PdfPaperSize.Letter, graphics)
                 End Using
             End Using
+            Process.Start(New ProcessStartInfo("..\..\..\Result.pdf") With {.UseShellExecute = True})
         End Sub
 
         Private Shared Sub DrawComboBoxField(ByVal graphics As PdfGraphics)
             ' Create a combo box field specifying its name and location.
             Dim comboBox As PdfGraphicsAcroFormComboBoxField = New PdfGraphicsAcroFormComboBoxField("combo Box", New RectangleF(20, 20, 100, 20))
-            ' Add values to the combo box.  
+            ' Add values to the combo box.
             comboBox.AddValue("Red")
             comboBox.AddValue("Yellow")
             comboBox.AddValue("Green")
