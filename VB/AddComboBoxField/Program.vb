@@ -17,6 +17,7 @@ Namespace AddComboBoxField
                     processor.RenderNewPage(PdfPaperSize.Letter, graphics)
                 End Using
             End Using
+
             Process.Start(New ProcessStartInfo("..\..\..\Result.pdf") With {.UseShellExecute = True})
         End Sub
 
