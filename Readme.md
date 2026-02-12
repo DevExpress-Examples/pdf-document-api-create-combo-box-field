@@ -15,7 +15,7 @@ This example creates a combo box field and adds it to a PDF document.
 * [Program.cs](./CS/AddComboBoxField/Program.cs) (VB: [Program.vb](./VB/AddComboBoxField/Program.vb))
 <!-- default file list end -->
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-create-combo-box-field&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-create-combo-box-field&~~~was_helpful=no)
 
